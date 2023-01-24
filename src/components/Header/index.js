@@ -11,7 +11,7 @@ class Header extends Component {
     return (
         <HashRouter>
             <div className="row Header" id="header">
-                <a href="https://ririhailu.github.io/my-react-portfolio/"><img src="https://img.icons8.com/color/48/000000/astronaut.png" alt="Rahel Hailu" class="icon" id="astro"/></a>
+                <a href="https://ririhailu.github.io/my-react-portfolio/"><img src="https://i.etsystatic.com/7673973/r/il/3c527d/3176958299/il_1140xN.3176958299_4bzj.jpg" alt="Rahel Hailu" class="icon" id="astro"/></a>
                 <Navigation/>
             </div>
     
