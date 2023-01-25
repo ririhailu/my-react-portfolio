@@ -8,14 +8,14 @@ return(
         <hr></hr>
         <div class="row justify-content-center" id="resume">
             <div class="mt-5 pl-5 pr-5">
-            I recently graduated from Penn LPS web development boot camp. In the class, I was able to create various web
+            I recently graduated from Penn LPS web development bootcamp. In the class, I was able to create various web
             applications. I also have a bachelor degree in Health administration and policy.
                 
                 
                 <p class="mt-5">
                 
             
-                Download my full <a href=" https://github.com/ririhailu/my-react-portfolio/raw/master/src/assetscopy/Resume-RahelHailu.pdf" class="link">resume</a>
+                Download my full <a href=" https://github.com/ririhailu/my-react-portfolio/raw/master/src/assets/Resume-RahelHailu.pdf" class="link">resume</a>
                 <br></br>  
                 </p>
             </div>
