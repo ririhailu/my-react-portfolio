@@ -3,6 +3,7 @@ import React from 'react';
 
 // Individual Card build-out using props
 function ProjectCards(props) {
+  console.log(props)
     return (
       <div className="card"> 
         <div className="img-container">

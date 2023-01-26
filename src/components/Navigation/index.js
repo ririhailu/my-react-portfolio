@@ -1,14 +1,22 @@
-import React from 'react';
-import {NavLink} from "react-router-dom";
+import React from "react";
+import { NavLink } from "react-router-dom";
 
-function Navigation(props) {   
-
-    return (
+function Navigation(props) {
+  console.log(props);
+  return (
     <div className=" row navigation" id="navigation">
-        <a href="#about">about </a>
-        <a href="#portfolio">portfolio </a>
-        <a href="#contact">contact </a>
-        <a href="#resume">resume</a>
+      <a href="#about" onClick={() => props.handlePageChange("About")}>
+        about
+      </a>
+      <a href="#portfolio" onClick={() => props.handlePageChange("Portfolio")}>
+        portfolio{" "}
+      </a>
+      <a href="#contact" onClick={() => props.handlePageChange("Contact")}>
+        contact{" "}
+      </a>
+      <a href="#resume" onClick={() => props.handlePageChange("Resume")}>
+        resume
+      </a>
     </div>
   );
 }

@@ -17,21 +17,22 @@ export default function Header() {
     if (currentPage === "Portfolio") {
       return <Portfolio />;
     }
+    if (currentPage === "Resume") {
+        return <Resume />;
+      }
     return <Contact />;
   };
+
   const handlePageChange = (page) => setCurrentPage(page);
   return (
     <div>
-      {/* <Navigation /> */}
-      {/* <div className="row Header" id="header">
-        <a href="https://ririhailu.github.io/my-react-portfolio/"></a> */}
-        <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Navigation 
+      currentPage={currentPage} handlePageChange={handlePageChange}/>
+      <div className="row Header" id="header">
+        <a href="https://ririhailu.github.io/my-react-portfolio/"></a>
+
         <div class="container content">{renderPage()}</div>
-        
-       
       </div>
-
-    //</div>
-
+    </div>
   );
 }
