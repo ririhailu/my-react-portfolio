@@ -11,7 +11,7 @@ The my-react-portfolio was initially created in a repository in GitHub. The repo
 
 ## Credits
 
-I would like to thank *************************
+I would like to thank Erik Hoversten and Jacob Carver for assisting me with this project. 
 
 ## License
 
@@ -41,4 +41,3 @@ SOFTWARE.
 
 * https://github.com/ririhailu/my-react-portfolio
 
-**********************ADD GitHUB PAGES LINK
