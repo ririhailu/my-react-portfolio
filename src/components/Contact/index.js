@@ -36,7 +36,7 @@ function ContactForm() {
         e.preventDefault();
     }
     return (
-        <section class="justify-content-center" id="contact-section">
+        <section class="justify-content-center" id="contact-section contact">
             <h1 data-testid='h1tag' className="contact">contact: RahelHailu</h1>
             <hr></hr>
             <form class="justify-content-center" id="contact-form">

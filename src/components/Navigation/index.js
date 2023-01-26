@@ -5,12 +5,20 @@ function Navigation(props) {
 
     return (
     <div className=" row navigation" id="navigation">
-        <NavLink to="/about">about </NavLink>
-        <NavLink to="/portfolio">portfolio </NavLink>
-        <NavLink to="/contact">contact </NavLink>
-        <NavLink to="/resume">resume</NavLink>
+        <a href="#about">about </a>
+        <a href="#portfolio">portfolio </a>
+        <a href="#contact">contact </a>
+        <a href="#resume">resume</a>
     </div>
   );
 }
+
+// return (
+//   <div className=" row navigation" id="navigation">
+//       <NavLink to="/about">about </NavLink>
+//       <NavLink to="/portfolio">portfolio </NavLink>
+//       <NavLink to="/contact">contact </NavLink>
+//       <NavLink to="/resume">resume</NavLink>
+//   </div>
 
 export default Navigation;

@@ -3,7 +3,7 @@ import React from 'react';
 function Resume() {
 
 return(
-<section class="mb-5">
+<section class="mb-5" id="resume">
     <h1 className="resume">resume: RahelHailu</h1>
         <hr></hr>
         <div class="row justify-content-center" id="resume">

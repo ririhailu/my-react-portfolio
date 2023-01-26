@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
   return (
-    <section className="title">
+    <section className="title" id="about">
       <h1 class="name">about: RahelHailu</h1>
       <hr></hr>
 

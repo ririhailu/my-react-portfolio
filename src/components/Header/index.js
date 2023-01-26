@@ -1,31 +1,37 @@
-import React, {Component} from 'react';
-import {Route, Redirect, HashRouter} from "react-router-dom";
-import Navigation from '../../components/Navigation';
-import About from '../../components/About';
-import Contact from '../../components/Contact';
-import Portfolio from '../../components/Portfolio';
-import Resume from '../../components/Resume';
+import React, { useState } from "react";
+import { Route, HashRouter, BrowserRouter } from "react-router-dom";
+import Navigation from "../../components/Navigation";
+import About from "../../components/About";
+import Contact from "../../components/Contact";
+import Portfolio from "../../components/Portfolio";
+import Resume from "../../components/Resume";
 
-class Header extends Component {   
-    render() {
-    return (
-        <HashRouter>
-            <div className="row Header" id="header">
-                <a href="https://ririhailu.github.io/my-react-portfolio/"/>
-                <Navigation/>
-            </div>
-    
+export default function Header() {
+  const [currentPage, setCurrentPage] = useState("About");
 
-    <div className="content">
-          <Route exact path="/" render={() => (<Redirect to="/portfolio"/>)}/>
-          <Route path="/portfolio" component={Portfolio}/>
-          <Route path="/about" component={About}/>
-          <Route path="/contact" component={Contact}/>
-          <Route path="/resume" component={Resume}/>
-        </div>
-    </HashRouter>
-    )
+  // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
+  const renderPage = () => {
+    if (currentPage === "About") {
+      return <About />;
+    }
+    if (currentPage === "Portfolio") {
+      return <Portfolio />;
+    }
+    return <Contact />;
+  };
+  const handlePageChange = (page) => setCurrentPage(page);
+  return (
+    <div>
+      {/* <Navigation /> */}
+      {/* <div className="row Header" id="header">
+        <a href="https://ririhailu.github.io/my-react-portfolio/"></a> */}
+        <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+        <div class="container content">{renderPage()}</div>
+        
+       
+      </div>
+
+    //</div>
+
+  );
 }
-}
-
-export default Header;

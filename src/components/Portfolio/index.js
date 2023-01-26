@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectCards from '../../components/Project'
-import portfolio from '../../portfolio'
+import portfolio from '../../components/Portfolio'
 //import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Wrapper(props) {
@@ -10,7 +10,7 @@ function Wrapper(props) {
 function Portfolio() {
 
     return (
-        <section>
+        <section id="portfolio">
             <div className="project">
                 <h1 className="title">development portfolio: RahelHailu</h1>
                 <hr></hr>
