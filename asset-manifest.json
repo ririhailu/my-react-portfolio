@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/my-react-portfolio/static/css/main.4879d17f.css",
+    "main.js": "/my-react-portfolio/static/js/main.1268a3dc.js",
+    "static/media/mealgenerator.png": "/my-react-portfolio/static/media/mealgenerator.d42fd52f764aec023c59.png",
+    "static/media/weatherdashboard.png": "/my-react-portfolio/static/media/weatherdashboard.093c6d5258531d877a46.png",
+    "static/media/notetaker.png": "/my-react-portfolio/static/media/notetaker.addf189fb3ca62b8869b.png",
+    "static/media/teamprofilegenerator.png": "/my-react-portfolio/static/media/teamprofilegenerator.968271187fcb3abfe85a.png",
+    "static/media/passwordTracker.png": "/my-react-portfolio/static/media/passwordTracker.6ca3a5dffd11d3e9ff06.png",
+    "static/media/rahel-hailu.jpg": "/my-react-portfolio/static/media/rahel-hailu.1482a6ea9a393e2633ad.jpg",
+    "static/media/passwordgenerator.png": "/my-react-portfolio/static/media/passwordgenerator.f8eb522b2676cd4a7cc0.png",
+    "index.html": "/my-react-portfolio/index.html",
+    "main.4879d17f.css.map": "/my-react-portfolio/static/css/main.4879d17f.css.map",
+    "main.1268a3dc.js.map": "/my-react-portfolio/static/js/main.1268a3dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4879d17f.css",
+    "static/js/main.1268a3dc.js"
+  ]
+}
