@@ -6,8 +6,9 @@ import MealGenerator from "../../assets/images/mealgenerator.png";
 import NoteTaker from "../../assets/images/notetaker.png";
 import PasswordGenerator from "../../assets/images/passwordgenerator.png";
 import PasswordTracker from "../../assets/images/passwordTracker.png";
-import TeamProfileGenerator from "../../assets/images/teamprofilegenerator.png";
+//import TeamProfileGenerator from "../../assets/images/teamprofilegenerator.png";
 import WeatherDashboard from "../../assets/images/weatherdashboard.png";
+import DareDevilDeals from "../../assets/images/DareDevilDeals.jpg"
 function Wrapper(props) {
   return <div className="wrapper">{props.children}</div>;
 }
@@ -44,10 +45,10 @@ function Portfolio() {
     },
     {
       id: 5,
-      image: TeamProfileGenerator,
-      name: "Team Profile Generator",
-      github: "https://github.com/ririhailu/Team-Profile-Generator",
-      deploy: "",
+      image: DareDevilDeals,
+      name: "Dare Devil Deals",
+      github: "https://github.com/ririhailu/dare-devil-deal",
+      deploy: "https://still-anchorage-78075.herokuapp.com/",
     },
     {
       id: 6,
@@ -56,7 +57,7 @@ function Portfolio() {
       github: "https://github.com/ririhailu/check-your-weather-forecast",
       deploy: "https://ririhailu.github.io/check-your-weather-forecast/",
     },
-
+    
   ];
   return (
     <section id="portfolio">

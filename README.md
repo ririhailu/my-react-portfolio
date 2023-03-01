@@ -40,4 +40,4 @@ SOFTWARE.
 ## Review  
 
 * https://github.com/ririhailu/my-react-portfolio
-
+* https://ririhailu.github.io/my-react-portfolio/
